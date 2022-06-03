@@ -83,7 +83,7 @@ debe ir solo-->
 ```
 > "Are you not entertained?!"\
 -Maximus, "Gladiator"
-
+    
 > Cita
 >> con
 >>> subcitas
@@ -182,23 +182,35 @@ En markdown, no existe el subrayado.
 ```
 ~~Sí existe el tachado~~
 
+## 9. Líneas separadoras
 ```
+Contenido 1
+***
+
+Contenido 2
+---
+
+Contenido 3
+___
 
 ```
+Contenido 1
+***
 
+Contenido 2
+---
+
+Contenido 3
+___
+
+También se pueden escribir con espacios entre los símbolos: el resultado es el mismo
+
+## 10. Imágenes
 ```
+![Imagen Gladiator: Error](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F9c%2F7e%2Fc3%2F9c7ec341a5d82a964f9dc7baac4f05ce--gladiator-film-gladiator-quotes-movie.jpg&f=1&nofb=1 "Marcus Aurelius en su máximo apogeo")
 
+[![a](https://www.google.es/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)](www.google.es)
 ```
+![Imagen Gladiator: Error](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F9c%2F7e%2Fc3%2F9c7ec341a5d82a964f9dc7baac4f05ce--gladiator-film-gladiator-quotes-movie.jpg&f=1&nofb=1 "Marcus Aurelius en su máximo apogeo")
 
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
+[![a](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F9c%2F7e%2Fc3%2F9c7ec341a5d82a964f9dc7baac4f05ce--gladiator-film-gladiator-quotes-movie.jpg&f=1&nofb=1 )](www.google.es)
